@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0, 0.5)50%,rgba(0,0,0, 0.5)50%),url(pic/coursebckgrd.jpg);
+    background-position: center;
+    background-size: cover;
+    height:130vh;
+}
+
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.ic{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    font-family: sans-serif;
+}
+
+h5{
+    font-weight: lighter;
+    padding-left: 40px;
+    color: blanchedalmond;
+}
+
+span{
+    color:#fff;
+    padding: 0;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+   
+}
+
+ul, li{
+    display: flex;
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 15px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff7200;
+}
+
+div .crnt{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: rgb(196, 193, 193);
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.courses h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+
+.listgrid{
+    margin: 100%;
+    margin-top: 150px;
+    margin-left: 80px;
+    display: grid;
+    grid-gap: 160px;
+    grid-row-gap: 0px;
+    grid-column-gap: 105px;
+    align-items: center;
+}
+a h2{
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: -74px;
+    width:520px;
+}
+
+
+
+.listgrid > article{
+    border: none;
+    background:rgba(0, 0, 0, 0.61);
+    border-radius: 30px;
+    width: 520px;
+    height: 120px;
+    transition: transform .3s;
+    box-shadow: 2px 2px 26px 0px rgba(0,0,0, 0.8);
+    margin-left:-70px;
+}
+
+.listgrid > article:hover{
+    transform:scaleX(1.1);
+    transition: transform .3s;
+    box-shadow: 2px 2px 26px 0px rgba(0,0,0, 0.8);
+    cursor: pointer;
+}
+
+.listgrid > article img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 100%;
+    width: 40%;
+
+}
+.listgrid .y{
+    margin-left: 570px ;
+}

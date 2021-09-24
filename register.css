@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginback img{
+    width: 100%;
+    height: 100vh;
+
+}
+.form{
+    color: #fff;
+    width: 250px;
+    height: 480px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.205)50%,rgba(0, 0, 0, 0.205)50%);
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    padding-top: 200px;
+    border-radius:10px;
+    padding: 27px;
+}
+
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 33px;
+    width:250px;
+    padding-top: 5px;
+    background-color: white;
+    color: #ff7200;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+.form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form input{
+    color: white;
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    text-align: left ;
+    padding-left: 3px;
+    margin-bottom: 20px;
+
+}
+
+
+.btnn{
+    width: 250px;
+    height: 40px;
+    background-color:#ff7200;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s ease-in;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+.btnn:hover{
+    background:#fff;
+    color: #ff7200;
+}
+
+.link{
+    cursor: default;
+    margin-top: 3px;
+}
+
+.link a{
+    color: #ff7200;
+    cursor: pointer;
+    
+}
+
+.link a:hover{
+    color: #fff;
+
+}
